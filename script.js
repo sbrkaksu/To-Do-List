@@ -59,7 +59,7 @@ function loadData() {
     remove_Btn.setAttribute("class", todos[data].class);
 
     const edit_Btn = document.createElement("img"); //Create edit button (img used as button)
-    edit_Btn.setAttribute("src", "/imgs/pencil.png");
+    edit_Btn.setAttribute("src", "./imgs/pencil.png");
     edit_Btn.setAttribute("alt", "Edit Task");
     edit_Btn.setAttribute("class", todos[data].class);
 
